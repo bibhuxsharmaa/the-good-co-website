@@ -1,19 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
 </head>
+
 <body>
     <div id="main">
+
         <div id="page1">
-            <h1>CHANGE <br>THE COURSE</h1>
+            <h1>CHANGE</h1>
+            <h1> THE COURSE</h1>
             <div id="video-container">
                 <div id="play">PLAY</div>
                 <video autoplay loop muted src="video/video.mp4"></video>
             </div>
+        </div>
+        <div id="page2">
+            <div id="elem1" class="elem"><img data-scroll data-scroll-speed="1"
+                    src="https://cdn.sanity.io/images/w8f1ak3c/production/9032e317a6741221ae543fdae5d05160819f9a44-1500x2250.jpg/DSC0079_Dexter%20Kim.jpg?rect=75,0,1351,2250&w=320&h=533&fit=min&auto=format">
+                <div data-scroll data-scroll-speed="-2" class="dets">
+                    <div class="dets">
+                        <div class="pill-container">
+                            <div class="hover-buttons">
+                                <div class="menu-item">SHOP
+                                    <div class="popup">
+                                        <img src="https://cdn.sanity.io/images/w8f1ak3c/production/d38a94692dcb9250bb49632883f8e31c4a11e123-1408x1408.png"
+                                            alt="shop" />
+                                        <p>Explore latest products</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">THINGS
+                                    <div class="popup">
+                                        <img src="https://cdn.sanity.io/images/w8f1ak3c/production/d38a94692dcb9250bb49632883f8e31c4a11e123-1408x1408.png"
+                                            alt="things" />
+                                        <p>Support our mission</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="elem2" class="elem"><img data-scroll data-scroll-speed="1"
+                    src="https://cdn.sanity.io/images/w8f1ak3c/production/06dac0cbccbec66e8c76afc0cc323e5241cc508b-3000x5000.png/Website%20Slider%20Slice%20Images%20(18).png?rect=0,2,3000,4997&w=320&h=533&auto=format">
+                <div data-scroll data-scroll-speed="-2" class="dets">
+
+                </div>
+            </div>
+            <div id="elem3" class="elem"><img data-scroll data-scroll-speed="1"
+                    src="https://cdn.sanity.io/images/w8f1ak3c/production/06dac0cbccbec66e8c76afc0cc323e5241cc508b-3000x5000.png/Website%20Slider%20Slice%20Images%20(18).png?rect=0,2,3000,4997&w=320&h=533&auto=format">
+                <div data-scroll data-scroll-speed="-2" class="dets">
+                    <div class="pill-container">
+                        <div class="hover-buttons">
+                            <div class="menu-item">SHOP
+                                <div class="popup">
+                                    <img src="https://cdn.sanity.io/images/w8f1ak3c/production/d38a94692dcb9250bb49632883f8e31c4a11e123-1408x1408.png/Two%20Hugs%20Candle%20Two%20Good%20Co.png?w=1280&h=1280&auto=format"
+                                        alt="shop">
+                                    <p>Explore latest products</p>
+                                </div>
+                            </div>
+                            <div class="menu-item">BATH
+                                <div class="popup">
+                                    <img src="https://cdn.sanity.io/images/w8f1ak3c/production/d38a94692dcb9250bb49632883f8e31c4a11e123-1408x1408.png/Two%20Hugs%20Candle%20Two%20Good%20Co.png?w=1280&h=1280&auto=format"
+                                        alt="donate">
+                                    <p>Support our mission</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page3">
+
         </div>
     </div>
 
@@ -32,7 +97,12 @@
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
